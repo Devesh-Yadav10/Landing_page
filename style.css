@@ -6,15 +6,18 @@ body {
   font-family: 'Rubik';
   background-color: rgb(245, 245, 220);
   flex-direction: column;
+  min-height: max-content;
+  flex-wrap: wrap;
 }
 
 .header {
   display: flex;
+  flex-shrink: 0;
   justify-content: space-between;
   background-color: rgb(80, 21, 21);
   color: #f9faf8;
   padding-bottom: 100px;
-  flex-shrink: 0;
+
   padding: 50px;
   padding-top: 20px;
 }
