@@ -5,6 +5,7 @@ body {
   display: flex;
   font-family: 'Rubik';
   background-color: rgb(245, 245, 220);
+  flex-direction: column;
 }
 
 .header {
