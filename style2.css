@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(245, 245, 220);
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(80, 21, 21);
+    padding: 20px;
+    font-family: 'Rubik';
+    margin-top: 0px;
+}
+p {
+    margin: 20px;
+    font-family: 'Ojuju';
+    font-weight: 700;
+}
+.diffalign {
+    text-align: center;
+}
